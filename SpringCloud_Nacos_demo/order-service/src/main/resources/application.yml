@@ -11,9 +11,9 @@ spring:
   cloud:
     nacos:
       server-addr: localhost:8848 # nacos服务地址
-#      discovery:
-#        cluster-name: HZ # 集群名称
-#        namespace: f9de3938-0093-4475-b815-70f22741f2bf
+      discovery:
+        cluster-name: HZ # 集群名称
+        namespace: f9de3938-0093-4475-b815-70f22741f2bf
 
 mybatis:
   type-aliases-package: com.wang.user.pojo
